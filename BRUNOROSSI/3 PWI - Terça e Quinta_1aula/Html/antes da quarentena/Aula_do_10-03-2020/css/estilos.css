@@ -1,0 +1,10 @@
+body {
+	background-color: white;
+    width: 900px;
+    height: 200px;
+}
+
+.figure {
+    width: 200px; /* largura */
+    height: auto; /* Altura */
+ }

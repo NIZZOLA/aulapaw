@@ -1,0 +1,45 @@
+    body {
+        color:tomato;
+    }
+    
+    h1 {
+        color:green;
+    }
+
+    p {
+        color:blueviolet;
+    }
+
+    .texto-rosa {
+        color:pink;
+    }
+    .texto-amarelo { color:yellow;}
+
+    .letra20 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .borda {
+        border-color: red;
+        border-style: solid;
+        border-width: 2px;
+    }
+
+    li {
+        margin:10px;
+        padding: 10px;
+        background-color:#CCC;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+
+    .quadro {
+        padding: 30px;
+        background-color:#CCC;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        width:30%;
+    }

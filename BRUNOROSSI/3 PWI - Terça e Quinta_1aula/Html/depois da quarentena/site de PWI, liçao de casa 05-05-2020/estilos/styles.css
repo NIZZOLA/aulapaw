@@ -1,0 +1,168 @@
+.cabeça {
+    margin: 0 auto;
+    width: 1240px;
+    height: 250px;
+    background-color: lightblue;
+    margin-bottom: 16px;
+}
+
+.logo {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 192px;
+    height: 192px;
+}
+
+.fontmax{
+    float: inline-end;
+    font-size: 110px;
+    color: white;
+}
+
+.font1{
+    float: inline-end;
+    font-size: 110px;
+    color: white;
+}
+
+
+.cabeça li{
+    font-size: 20px;
+    margin-right:20px;   /* coloca margem à direta */
+    margin-top:100px;    /* coloca margem superior */
+    list-style-type: none;
+    display: block;  /* faz blocos individuais */
+    width:175px;      /* largura */
+    height: 30px;
+    float:right;     /* orientação da esquerda para direita */
+    background-color:white;    
+    margin-left:5px;
+    padding:;
+    font-weight: bold; /* negrito */
+    text-align: center;
+}
+
+.cabeça a{
+    text-decoration: none;
+    color: black;
+}
+
+.novidades {
+    margin: 16px auto;
+    width: 1240px;
+    height: 110px;
+    background-color: greenyellow;
+}
+
+.novidades2 {
+    margin: 20px auto;
+    width: 1240px;
+    height: 110px;
+    background-color: lightblue;
+    float: inline-end;
+    font-size: 110px;
+    color: white;
+}
+
+.principais {
+    margin: 0 auto;
+    float: 0 auto;
+    width: 1240px;
+    height: 488px;
+}
+.noticiaes{
+    margin: 0 auto;
+    margin-right: 10px;
+    float: left;
+    width: 335px;
+    height: 488px;
+    background-color: green;
+}
+
+.noticiaba{
+    margin: 0 auto;
+    margin-top: 9px;
+    float: left;
+    width: 895px;
+    height: 133px;
+    background-color: lawngreen;
+}
+
+.textop {
+    float: left;
+    margin: 0 auto;
+    margin-left: 12px;
+    width: 450px;
+    height: 346px;
+    background-color:none;
+    font-size: 24px;
+    color: black;
+}
+
+.noticiap {
+    float: left;
+    margin: 0 auto;
+    width: 433px;
+    height: 346px;
+    background-color: gray;
+}
+
+.secundarios {
+    margin: 16px auto;
+    width: 1240px;
+    height: 1264px;
+    background-color:none;
+}
+
+.final {
+    margin: 0  auto;
+    margin-top: 26px;
+    width: 1240px;
+    height: 120px;
+    background-color: orange;
+}
+
+.noticiasec{
+    margin: 0 auto;
+    margin-right: 14px;
+    float: left;
+    margin-bottom: 16px;
+    width: 300px;
+    height: 240px;
+    background-color: lightseagreen;
+}
+
+.textosec{
+    margin: 0 auto;
+    margin-right: 32px;
+    float: left;
+    margin-bottom: 16px;
+    width: 464px;
+    height: 240px;
+    background-color: gray;
+    float: inline-end;
+    font-size: 40px;
+    color: white;
+}
+
+.noticiater {
+    margin: 0 auto;
+    float: left;
+    margin-bottom: 16px;
+    width: 265px;
+    height: 240px;
+    background-color: lightseagreen;
+}
+
+.textoter{
+    margin: 0 auto;
+    float: left;
+    margin-bottom: 16px;
+    width: 165px;
+    height: 240px;
+    background-color: gray;
+    float: inline-end;
+    font-size: 25px;
+    color: white;
+}

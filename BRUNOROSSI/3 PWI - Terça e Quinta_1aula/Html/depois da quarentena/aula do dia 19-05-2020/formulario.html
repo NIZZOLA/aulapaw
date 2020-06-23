@@ -1,0 +1,114 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <title>Banana</title>
+</head>
+
+<body>
+
+    <div class="div-conteudo">
+
+        <div class="div-titulo">
+            <h1> Formulário de Pré-Matrícula</h1>
+        </div>
+
+        <div class="div-formulario">
+
+
+
+            <form action="" method="POST" enctype="multipart/form-data">
+                <div class="bordadiv">
+                    <p class="titulo-form">Dados Pessoais:</p>
+                    <div class="linha">
+                        <label class="lbl-dadospessoais" for="Nome do Aluno">Nome do Aluno:</label>
+                        <input type="text" name="Nome do Aluno" id="Nome do Aluno">
+                    </div>
+
+                    <div class="linha">
+                        <label class="lbl-dadospessoais" for="Nascimento">Nascimento (dd/mm/aaaa):</label>
+                        <input type="text" name="Nascimento" id="Nascimento" size="1">/<input type="text"
+                            size="1">/<input type="text" size="2">
+                    </div>
+
+                    <div class="linha">
+                        <label class="lbl-dadospessoais" for="Nome da Mãe">Nome da Mãe:</label>
+                        <input type="text" name="Nome da Mãe" id="Nome da Mãe">
+                    </div>
+
+                    <div class="linha">
+                        <label class="lbl-dadospessoais" for="Nome do Pai">Nome do Pai:</label>
+                        <input type="text" name="Nome do Pai" id="Nome do Pai">
+                    </div>
+
+                    <div class="linha">
+                        <label class="lbl-dadospessoais" for="Telefone">Telefone DDD:</label>
+                        (<input type="text" name="Telefone DDD" id="Telefone DDD" size="1">) Tel:<input type="text"
+                            size="4">
+                        Ramal:<input type="text" size="4"></label>
+                    </div>
+
+                    <div class="linha">
+                        <label class="lbl-dadospessoais" for="E-mail:">E-mail:</label>
+                        <input type="text" name="E-mail:" id="E-mail:">
+                    </div>
+
+                </div>
+                <div class="bordadiv2">
+
+
+                    <p class="titulo-form">Informações da Matrícula:</p>
+
+                    <div class="linha">
+                        <div class="coluna28">
+                            <label for="Série">Série:</label>
+                            <select name="Série">
+                                <option selected>Selecione</option>
+                                <option>Pré-escolar</option>
+                                <option>Ensino médio</option>
+                                <option>Ensino superior</option>
+                            </select>
+                        </div>
+                        <div class="coluna15">
+                            <label for="Turno">Turno:</label> </p>
+                            <input type="radio" name="horario" id="Manhã" checked="checked"> 
+                            <label for="Manhã">Manhã</label>
+                            <br>
+                            <input type="radio" name="horario" id="Tarde"> 
+                            <label for="Tarde">Tarde</label></p>
+                        </div>
+                        <div class="coluna28">
+                            <h3>Atividades Extracurriculares:</h3>
+
+                            <input type="checkbox" id="Informações" name="vehicle1" value="Informática">
+                            <label for="vehicle1"> Informática</label><br>
+                            <input type="checkbox" id="Música" name="vehicle2" value="Música">
+                            <label for="vehicle2"> Música</label><br>
+                            <input type="checkbox" id="Balet" name="vehicle3" value="Balet">
+                            <label for="vehicle3"> Balet</label><br>
+                            <input type="checkbox" id="Pintura" name="vehicle1" value="Pintura">
+                            <label for="vehicle1"> Pintura</label><br>
+                            <input type="checkbox" id="Judô" name="vehicle2" value="Judô">
+                            <label for="vehicle2"> Judô</label><br>
+                            <input type="checkbox" id="Futebol" name="vehicle3" value="Futebol">
+                            <label for="vehicle3"> Futebol</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="linhaf">
+                    <input class="Enviar Formulário" type="submit" value="Enviar Formulário">
+                    <input type="reset" value="Limpar Campos">
+                </div>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

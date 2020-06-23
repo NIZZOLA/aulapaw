@@ -1,0 +1,16 @@
+body {
+	background-color: black;
+    width: 900px;
+    height: 200px;
+}
+
+.figura {
+    background-color: black;
+    width: 400px;
+    height: 100px;
+}
+
+.foto-principal {
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,169 @@
+body {
+
+    color: #333333;
+    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    width: 1600px;
+    height: 2000px;
+    
+    }
+    
+    .sacola {
+    
+    background-image: url(sacola.png);
+    
+    background-repeat: no-repeat;
+    
+    background-position: top right;
+    
+    font-size: 14px;
+    
+    padding-right: 35px;
+    
+    text-align: right;
+    
+    width: 140px;
+    
+    padding-top: 8px;
+    
+    }
+    
+    .menu-opcoes ul {
+    
+    font-size: 15px;
+    
+    }
+    
+    .menu-opcoes ul li {
+    
+    display: inline;
+    
+    margin-left: 20px;
+    
+    }
+    
+    .container {
+    
+    margin: 0 auto;
+    
+    width: 940px;
+    
+    background-color: darkgrey;
+    
+    }
+    
+    .menu-opcoes a {
+    
+    color: #003366;
+    
+    }
+    
+    ul {
+    
+    list-style: none;
+    
+    }
+    
+    li {
+    
+    font-size: 24px;
+    
+    }
+    .busca,
+    .menu-departamentos	{
+                background-color: #DCDCDC;
+                font-weight:	bold;
+                text-transform:	uppercase;
+                margin-right: 10px;
+                width: 230px;
+                float: left;
+                clear: left;
+                margin-top: 10px;
+                padding-bottom: 10px;    
+        }
+    .busca h2,
+    .busca form,
+    .menu-departamentos h2	{
+                margin: 10px;
+        }
+    .menu-departamentos li	{
+                background-color:	white;
+                margin-bottom: 1px;
+                padding: 5px 10px;
+        }
+    .menu-departamentos a	{
+                color: #333333;
+                text-decoration:	none;
+        }
+
+        .destaque	{
+			margin-top: 10px;
+    }
+
+    busca input[type=search]	{
+        width: 170px;
+}
+
+.painel li	{
+    display:	inline-block;
+    vertical-align:	top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel	{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+.novidades	{
+    float:	left;
+}
+.mais-vendidos	{
+    float:	right;
+}
+
+.painel h2	{
+    font-size: 24px;
+    font-weight:	bold;
+    text-transform:	uppercase;
+    margin-bottom: 10px;
+}
+.painel a	{
+    color: red;
+    font-size: 14px;
+    text-align:	center;
+    text-decoration:	none;
+}
+.novidades	{
+    background-color: #F5DCDC;
+    float: 
+}
+.mais-vendidos	{
+    background-color: #DCDCF5;
+    float: left;
+
+
+}
+
+.painel img {
+    width: 150px;
+    
+
+}
+
+
+.painel ol{
+    text-decoration: none;
+    color: orange
+
+}
+
+
+.banner-destaque {
+    display: block;
+    background-color: yellow;
+    padding: 10px
+}
