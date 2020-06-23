@@ -1,0 +1,30 @@
+.container {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.figura {
+    width: 40%;
+    background-color:gray;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    margin:5px;
+}
+
+.figura img {
+    border-style: solid;
+    border-width: 15px;
+    width: 90%;
+}
+
+.titulo {
+    font-size: 20px;
+    color:blue;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+.imagem {
+    padding:15px;
+    background-color: red;
+}

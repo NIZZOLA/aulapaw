@@ -1,0 +1,34 @@
+.navcor{
+    background-color: #1c1c1c;
+    color: white;
+    font-size: 20px;
+}
+
+.navcor :hover{
+    color: white;
+}
+
+.fundo {
+    background-image: url(../img/1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 765px;
+}
+.fundo2{
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 470px;
+}
+
+.espaço1{
+    padding: 45px 0px;
+    height: 530px;
+    width: 100%;
+}
+
+.link{
+    font-size: 15px;
+}

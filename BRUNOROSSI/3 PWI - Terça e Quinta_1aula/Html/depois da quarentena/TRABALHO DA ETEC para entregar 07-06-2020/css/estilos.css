@@ -1,0 +1,12 @@
+.texto {
+    -webkit-text-stroke: 0.8px;
+    -webkit-text-stroke-color: #000;
+    font-size: 30px; color: white;
+    text-shadow: 3px 2px black;
+}
+.textop {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#000;
+    font-size: 75px; color: white;
+    text-shadow: 3px 2px black  ;
+}

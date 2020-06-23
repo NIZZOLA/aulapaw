@@ -1,0 +1,44 @@
+<head>
+    <link rel="stylesheet" href="testes.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div>
+        <div class="titu">
+            <h1>Formulário de Pré-Matricula</h1>
+        </div>
+        <div>
+            Dados Pessoais
+        </div>
+
+        <div class="Dados">
+            <label for="nome">Nome do aluno</label> <input type="text" name="nome" id="nome">
+                <br>
+                <label for="nascimento">Nascimento (dd/mm/aaaa)</label> <input class="diames" type="text" name="nascimento" id="nascimento"> / 
+                <input class="diames" type="text" name="nascimento" id="nascimento"> / 
+                <input style="width: 60px;" type="text" name="nascimento" id="nascimento">
+                <br>
+                <label for="nomemãe">Nome da mãe</label> <input type="text" name="nomemãe" id="namemãe">
+                <br>
+                <label for="nomepai">Nome do pai     </label> <input type="text" name="nomepai" id="nomepai">
+                <br>
+                <label for="telefone">Telefone: DDD (</label> <input class="diames" type="text" name="telefone" id="telefone"> ) Tel: <input type="text" name="telefone" id="telefone">
+                <br>
+                <label for="E-mail">E-Mail: </label> <input type="text" name="email" id="email">
+        </div>
+        <div class="informacoes">
+            <h3>Informações da matricula</h3>
+                <label>Série</label>
+                <br>
+                <select name="série">
+                    <option value=""> Selecione</option>
+                    <option value="pré-escolar">Pré-Escolar</option>
+                    <option value="fundamental1">Fundamental 1</option>
+                    <option value="fundamental2">Fundamental 2</option>
+                </select>
+                <label style="padding-left: 50px;">Turno</label>
+                <input type="radio" name="sexo" id="sexof"  value="F" checked="checked">		<label>Feminino</label>
+		    <input type="radio"	name="sexo" id="sexom" value="M">		<label>Masculino</label>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,96 @@
+
+.header {
+    margin: 0 auto;
+    width: 80%;  /*  940 = 910 + (15 + 15)   */
+    height:100px;
+    padding: 15px;
+    background-color: darkcyan;
+}
+
+.container {
+  margin: 0 auto;
+  /* width: 940px;  */
+  width:80%;
+  min-width:350px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:orange;
+  
+}
+
+.titulo {
+    font-size: 20px;
+    color:blue;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+.titulo_container {
+    padding:30px;
+    margin-top:20px;
+    background-color: gray;
+    font-size:26px;
+}
+
+
+.figura {
+    width: 23%;
+    background-color:gray;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    margin:1%;
+}
+
+.painel {
+    float:left;
+    width:93%;
+    background-color:yellow;
+    margin:1%;
+    padding:20px;
+}
+
+.logo {
+    width:100px;
+    height:100px;
+    float:left;  /* flutua à esquerda */
+}
+
+.figura img {
+    border-style: solid;
+    border-width: 15px;
+    width:90%;
+}
+
+
+.imagem {
+    padding:15px;
+    background-color: red;
+}
+
+.menutop {
+    list-style-type: none;
+    margin-right:10px;   /* coloca margem à direta */
+    margin-top:50px;    /* coloca margem superior */
+    float:right;  /* flutua à direita */
+}
+
+.menutop li {
+    display: block;  /* faz blocos individuais */
+    width:60px;      /* largura */
+    float:left;     /* orientação da esquerda para direita */
+    background-color:green;    
+    margin-left:5px;
+    padding: 14px 14px;
+    font-weight: bold; /* negrito */
+    text-align: center; 
+}
+
+.menutop li a {
+    text-decoration: none;
+    color:white;
+}
+
+.menutop li:hover {
+    background-color:magenta;
+    font-size:20px;
+  }

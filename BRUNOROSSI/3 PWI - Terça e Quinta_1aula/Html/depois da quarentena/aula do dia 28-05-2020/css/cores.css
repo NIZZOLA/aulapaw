@@ -1,0 +1,21 @@
+.cor {
+    background-color: goldenrod;
+}
+
+.logo{
+    height: 100px;
+}
+
+.centro{
+    height: 200px;
+}
+
+.doces{
+    padding-top: 10px;
+    height: 150px;
+    width: 200px;
+}
+
+.texto{
+    font-size: 24px;
+}

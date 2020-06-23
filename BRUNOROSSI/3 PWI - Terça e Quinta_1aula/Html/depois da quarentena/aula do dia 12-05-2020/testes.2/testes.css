@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    width: 800px;
+    height: 700px;
+}
+
+.titu h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.Dados {
+    height: 150px;
+    background-color: gray;
+    text-align: right;
+    float: left;
+}
+
+.informacoes{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+}
+
+.diames {
+    width: 44px;
+}
+
+
+

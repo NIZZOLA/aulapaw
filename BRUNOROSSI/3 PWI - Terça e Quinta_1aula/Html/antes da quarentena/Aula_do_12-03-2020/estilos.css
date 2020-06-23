@@ -1,0 +1,97 @@
+.container {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0 auto;
+  width: 940px;
+}
+
+.header {
+    margin: 0 auto;
+    width: 940px;
+    height: 110px;
+    background-color: greenyellow;
+    margin: center;
+}
+
+.figura {
+    width: 44%;
+    background-color:gray;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    margin:5px;
+}
+.painel {
+    float: left;
+    width: 93%;
+    background-color: purple;
+    margin: 1%;
+    padding: 20px;
+}
+
+.figura img {
+    border-style: solid;
+    border-width: 15px;
+    width: 90%;
+}
+
+.titulo {
+    font-size: 20px;
+    color:blue;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+.imagem {
+    padding:15px;
+    background-color: red;
+}
+
+.titulo-principal {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: yellow;
+}
+
+.logo-da-empresa {
+    width: 135px;
+    padding-left: 5px;
+    float: left;
+
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    float: right; /*flutua a direita*/
+    margin-top: 56px;
+    margin-right: 10px;
+}
+
+.menu li {
+    display: block; /*faz blocos individuais*/
+    width: 60px;
+    float: left;
+    padding: 14px/*altura*/ 12px/*largura*/;
+    margin-left: 5px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.menu li:hover /*Quando o cursor está em cima*/ {
+    background-color: lightgreen;
+    font-size: 20px;
+
+}
+
+.menu a:hover {
+    text-align: center
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+
+}

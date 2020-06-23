@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.div-conteudo {
+    margin-top: 40px;
+}
+
+.div-titulo {
+        font-size:20px;
+        text-align: center;
+}
+
+.div-formulario {
+    margin:3px;
+    padding:5px;
+    height: auto;
+}
+
+.bordadiv {
+    border-width: 3px;
+    border-color: gray;
+    border-style: solid;
+    height:280px;
+}
+
+.bordadiv2 {
+    border-width: 3px;
+    border-color: gray;
+    border-style: solid;
+    height:180px;
+}
+
+.linha {
+    width:100%;
+    height:40px;
+    font-size:18px;
+    display:inline-block;
+}
+
+.linhaf {
+    text-align: center;
+    width:100%;
+    height:40px;
+    font-size:18px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.titulo-form {
+   font-weight:bold;
+   padding:10px;
+}
+
+.lbl-dadospessoais {
+    width:300px;
+    float:left;    
+    display:block;
+    text-align: right;
+    padding-right:10px;
+    
+}
+
+.coluna28 {
+    padding-left: 10px;
+    width:240px;
+    float:left;
+    height:200px;
+}
+
+.coluna15 {
+    width:150px;
+    float:left;
+    height:200px;
+}
+
+.botoes {
+    margin-top:10px;
+}
