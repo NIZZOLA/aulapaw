@@ -1,0 +1,22 @@
+SITE DE COMPRAS
+- principal
+- produto
+- compra
+- cesta
+- resultados da busca
+- visão por categoria
+
+
+IMOBILIARIA
+- principal (home)
+- resultados da busca
+- página do imóvel
+- sobre (institucional)
+- fale conosco
+- blog
+
+
+- trabalhe cononsco
+
+
+- anunciar imovel

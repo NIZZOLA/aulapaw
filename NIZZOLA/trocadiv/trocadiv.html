@@ -1,0 +1,74 @@
+<head>
+    <meta charset="utf-8">
+    <title>Mirror Fashion</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="reset.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="img/harley-davidson-logo.png">
+        <ul class="menutop">
+            <li><a href="">Home</a></li>
+            <li><a href="">Motos</a></li>
+            <li><a href="">Peças</a></li>
+            <li><a href="">História</a></li>
+            <li><a href="">Contato</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+        <h1>Contato</h1>
+
+        <div id="imagem">
+            <div id="imagem1">
+                <img src="notebook1.jpg">
+            </div>
+
+            <div id="imagem2" style="display:none">
+                <img src="notebook2.jpg">
+            </div>
+
+            <div id="imagem3" style="display:none">
+                <img src="notebook3.jpg">
+            </div>
+
+        </div>
+
+
+        <div id="miniaturas">
+            <img src="notebook1.jpg" width="50" onclick="trocaFoto(1)">
+            <img src="notebook2.jpg" width="50" onclick="trocaFoto(2)">
+            <img src="notebook3.jpg" width="50" onclick="trocaFoto(3)">
+        </div>
+
+    </div>
+
+
+    </div>
+
+</body>
+
+<script>
+    function trocaFoto(nova) {
+        document.getElementById("imagem1").style.display = "none";
+        document.getElementById("imagem2").style.display = "none";
+        document.getElementById("imagem3").style.display = "none";
+        
+        document.getElementById("imagem"+nova).style.display = "block";
+        /*
+        switch (nova) {
+            case 1:
+                document.getElementById("imagem1").style.display = "block";
+                break;
+            case 2:
+                document.getElementById("imagem2").style.display = "block";
+                break;
+            case 3:
+                document.getElementById("imagem3").style.display = "block";
+                break;
+        }*/
+    }
+</script>
