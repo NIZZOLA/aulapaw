@@ -1,0 +1,36 @@
+
+body {
+  
+    min-height: 75rem;
+    padding-top: 4.5rem; 
+  }
+    /* The navbar */
+    .topnav {
+      background-color:rgb(246, 250, 248);
+    }    
+    /* Navbar links */
+    .topnav a {     
+      color:black;
+      text-align: center;
+      padding: 10px 10px;
+     
+      font-size: 17px;
+    }    
+    .topnav a:hover {
+      background-color: rgb(243, 241, 241);
+      color: black;
+    }
+    .containermain {    
+      margin: 20px;
+      width: auto;          
+    }    
+  
+.widget-search {
+  position: relative;
+  z-index: 2;
+}
+
+/**/
+
+
+  
