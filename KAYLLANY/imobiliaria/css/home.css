@@ -1,0 +1,65 @@
+.surch-background {
+    background-color: #353535be;
+}
+
+.jumbotron-with-background {
+    background-image: url("../img/img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blue {
+    background-color: #235a80;
+}
+
+.shadow {
+    text-shadow: 0.04em 0.04em gray;
+}
+
+.icon-background {
+    background-color: #3C6E71;
+    border-radius: 47%;
+    padding: 6%;
+}
+
+.icon-color {
+    color: white;
+}
+
+.gray-text {
+    color: #353535;
+}
+
+.bg-gray{
+    background-color: #F5F5F5;
+}
+
+.blue-text{
+    color: #1E3748;
+}
+
+.img-sobre{
+    height: 100%;
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+}
+
+.sobre-backgroud{
+    background-color: #D9D9D9;
+}
+
+.txt-height{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.txt-md{
+    font-size: 40px;
+}
+
+.card-img-size{
+    height: 100%;
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+}
