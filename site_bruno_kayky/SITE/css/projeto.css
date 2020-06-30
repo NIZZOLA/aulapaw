@@ -1,0 +1,116 @@
+
+.footer{
+    background-color: #D8D8D8;
+}
+
+.produtos{
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #6E6E6E;
+}
+
+
+
+.marca{
+    border-style: solid;
+  
+}
+.moveis_direita{
+ 
+    float: right;
+   
+}
+.moveis_esquerda{
+    float: left;
+ 
+}
+
+
+.casa{
+    background-image: url("../img/cabeçalho/casa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.botao{
+    
+    margin-top: 18px;
+    background-color: #545759;
+    color: white;
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;    
+}
+.destaque{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logog{
+    padding-top: 5px;
+}
+
+.bg-mdark{
+    background-color: #545759;
+}
+
+.titu{
+    font-size: 35px;
+    text-shadow: black 1px 1px;
+    background-color:lightslategray;
+}
+
+.menu{
+    width: 150px;
+    height: 500px;
+}
+
+.img{
+    
+}
+
+.fb{
+    background-image: url(../img/fundo/fundo.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 600px;
+    background-position: center;
+}
+.fbt{
+    background-image: url(../img/fundo/fundo.jpg);
+}
+
+.centro{
+    margin-right: 400px;
+    margin-left: 400px;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.pad{
+    height: 150px;
+}
+
+.conteudo{
+    padding-top: 30px;
+    opacity: 10;
+}
+
+.bg-textoc{
+    background-color: lightblue;
+}
+
+.letra{
+    font-size: 20px;
+}
+
+.img{
+    max-width: 550px;
+    max-height: 350px;
+    
+}

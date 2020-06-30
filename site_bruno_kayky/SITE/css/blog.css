@@ -1,0 +1,27 @@
+.fundo{
+    background-image: url("../img/blog/banco.png");
+}
+
+.facecolor{
+    color: #3B5998;
+}
+.instacolor{
+    color: #FA036E;
+
+}
+.twittercolor {
+    color: #14A3A8;
+}
+.linkedincolor{
+    color: #0949D3;
+}
+
+.social_buttons{
+    font-size: 20px;
+    
+}
+.pesquisar{
+    width: 31px;
+    height: 31px;
+    border-radius: 3px;
+}
